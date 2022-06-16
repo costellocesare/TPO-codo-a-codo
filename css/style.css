@@ -1,0 +1,662 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,700;1,100;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;1,400;1,500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}	
+
+body {
+  font-family: 'Roboto', sans-serif;
+}	
+
+body h1 {
+  text-transform: uppercase;
+  color: #FFC40B;
+  letter-spacing: 2px;
+  font-weight: 700;
+  font-size: 2em;
+  text-decoration: none;
+}
+
+body h2 {
+  text-transform: uppercase;
+  color: #FFC40B;
+  letter-spacing: 2px;
+  font-weight: 700;
+  font-size: 1em;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    color: #fff;
+    text-align: justify;
+}
+
+header{
+  position: fixed;
+  z-index: 10;
+}
+
+.navbar {
+  background-color: rgba(5, 5, 5, 0.6);
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  align-items: center;
+  width: auto;
+  height: 7em;
+  border-bottom: solid #908F8E 3px;
+  backdrop-filter: blur(5px);
+  transition: all 0.3s ease-in-out;
+}
+
+.navbar .logo {
+  width: 170px;
+  height: auto;
+  grid-column: 2 / 3;
+  cursor: pointer;
+}
+
+.navbar .menu {
+  grid-column: 6 / 9;
+  display: flex;
+  justify-content: space-around;
+  
+}
+
+.navbar .menu li {
+  list-style: none;
+  
+  
+}	
+
+.navbar .menu a {
+  text-decoration: none;
+  color: #fff;  
+  cursor: pointer;
+}
+
+.navbar .menubar {
+  display: none;
+  
+}
+
+.navbar .shop {
+  grid-column: 10 / 11;
+  color: white;
+  font-size: 2em;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  
+}
+
+.navbar .shop:hover{
+  color: #FFC40B;
+  text-shadow: 0 0 30px #FFC40B;
+  transition: all 0.5s ease;
+}
+
+.hero {
+  position: relative;
+  width: 100%;
+  height: 87vh;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(10, 1fr);
+  background: url(https://www.gamingcoffee.com/wp-content/uploads/2020/09/Squad-Offworld-Industries-1.jpg);
+  background-size: cover;
+  background-position: bottom left;
+  box-shadow: inset 0px -500px 100px -200px #18191b;
+  
+
+}
+
+.hero .hero-text {
+  grid-column: 4 / 11;
+  grid-row: 8 / 10;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+body p.texto{
+    color: white;
+
+}
+
+.hero .swipe{
+  display: none;
+}
+
+
+
+body a.register {
+
+    text-transform: uppercase;
+    color: #FFC40B !important;
+    transition: all 0.5s;
+    margin-right: 35px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+
+body a.register:hover {
+    color: #fff !important;
+    text-decoration: none;
+    transform: translateX(10px);
+    text-shadow: 0 0 30px #fff;
+}
+
+section.tutoriales {
+  display: grid;
+  grid-gap: 10px;
+  grid-template: repeat(3, 1fr) / repeat(3, 1fr); 
+  align-items: center;
+  padding: 20px;
+  background-color: #18191b;
+}
+
+article.notepierdas {
+  grid-row: 1 / 2;
+  grid-column: 1 / -1;
+  height: -51px;
+}
+
+article.tutorial {
+  grid-row: 2 / -1;
+}
+
+.grupo .notepierdas {
+  grid-column: 3 / 9;
+
+}
+
+iframe {
+  width: 100%;
+  height: 30vh;
+  border-radius: 10px;
+}
+
+.grupo .notepierdas p {
+  color: #fff;
+  
+}
+
+.grupo2 {
+  width: 100%;
+  height: 60vh;
+  background-color: #18191b;
+  background-image: url(https://cdn.akamai.steamstatic.com/steam/apps/393380/ss_454c1b7121a431ac953977ccc55495af072f20c2.1920x1080.jpg?t=1649877267);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: grid;
+  box-shadow: inset 0px -500px 100px -200px #18191b;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+
+p.desquadp {
+  text-align: justify;
+  margin-top: 2em;
+}
+
+.desquad {
+  margin: 7em;
+  grid-row: 1;
+  margin-left: 0em;
+  grid-column: 1;
+  padding: 20px;
+}
+
+.imagen {
+  grid-row: 1;
+  grid-column: 2;
+  margin-left: 0;
+  margin-top: 8em;
+  margin-left: 16em;
+}
+
+.Gif-info {
+  background-color: #18191b;
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-gap: 20px;
+  padding: 20px;
+}
+
+.About {
+  grid-column: 1 / -1;
+  grid-row: 1;  
+  padding: 40px;
+}
+
+.gridder{
+  display: inline-block;
+  width: 100%;
+}
+
+.gif {
+  grid-row: 2 / -1;
+}
+
+.gifs{
+  display: inline-block;
+  width: 100%;
+  height: 224px;
+  
+}
+
+
+section.Contacto {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  width: 100%;
+  height: auto; 
+  background-color: #18191b;
+  
+  align-content: center;
+  padding: 20px;
+}
+
+form {
+  margin-top: 1em;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+
+input.formula {
+    padding: 4px;
+    margin: 1em;
+}
+
+button {
+    width: auto;
+    margin-top: 40px;
+    background-color: #FFC40B;
+    border: none;
+    text-align: center;
+    font-size: 16px;
+    transition: all 0.5s ease;
+}
+
+button:hover {
+    
+    box-shadow: 0 0 30px #FFC40B;    
+    cursor: pointer;
+}
+.footer {
+  margin-top: 0px;
+  padding-top: 200px;
+  padding-bottom: 40px;
+  background-color: #18191b;
+  background-image: url(https://joinsquad.com/wp-content/themes/squad/img/footer.png);
+  background-size: cover;
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+
+.footer-icons {
+  grid-column: 8 / 11;
+  grid-row: 1;
+  align-content: center;
+  text-align: center;
+  margin-top: 23px;
+}
+.icono {
+  color: #FFC40B;
+  font-size: 3em;
+  letter-spacing: 35px;
+  transition: all 0.5s ease;
+}
+
+.icono:hover{
+  color: #FFC40B;
+  text-shadow: 0 0 30px #FFC40B;  
+}
+.footer-text {
+  display: flex;
+  grid-column: 2 / 6;
+}
+.fa-solid.fa-graduation-cap.cap {
+  color: #FFC40B;
+  font-size: 3em;
+}
+
+.tpo {
+  margin-top: 16px;
+  margin-left: 19px;
+}
+
+.scrolled {
+  
+  background-color: #18191b;
+  height: 9vh; 
+  
+}
+
+@media only screen and (max-width: 600px) and (max-width: 600px) {
+
+  .navbar{
+    position: relative;
+    background-color: #18191b;
+    width: 64vh;
+
+  }
+
+  .navbar .shop{
+    display: none;
+
+  }
+
+  .navbar .menubar{
+    display: block;
+    grid-column: 10 / 11;
+    font-size: 2em;
+    cursor: pointer;
+    color: white;
+  }
+ 
+  .navbar .menu {
+    position: absolute;
+    width: 100vh;
+    height: 5em;
+    display: grid;
+    align-items: center;
+    background-color: #18191b;
+    margin-top: 17em;
+    transform: translate(-63%, -300%);
+    transition: all 1s ease;
+    border: #908F8E solid 3px;
+    gap: 20px;
+}
+  
+  .navbar .logo {
+    grid-column: 5 / 8;
+    width: 150px;
+  }
+
+  .navbar .menutoggle {
+    transform: translate(-63%, -74%);
+    display: flex;
+    gap: 3px;
+    height: 5em;
+}
+  
+
+  .tutoriales .tutorial {
+    grid-column: 1 / -1;   
+    grid-row: auto; 
+    width: 100%;
+    height: 100%;
+  }
+  
+  
+  .hero{
+    grid-template-columns: repeat(6, 1fr);
+}
+
+  
+
+  .hero .hero-text {
+    grid-column: 2 / 6;
+    grid-row: 4 / 10;
+    display: flex;
+    flex-wrap: wrap;
+}
+  
+    .hero .swipe {
+    display: block;
+    color: #FFC40B;
+    grid-row: 9 / 10;
+    grid-column: 3 / 5;
+    align-items: center;
+    margin-left: 2.5em;
+    margin-top: 2em;
+    font-size: 2em;
+    transition: all 0.5s ease;
+
+  }
+
+  .hero .swipe:hover {
+    color: #FFC40B;
+    text-shadow: 0 0 30px #FFC40B;
+  }
+
+  .grupo2{
+    width: 100%;
+    height: auto;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1em;
+}
+  
+  .Gif-info .gif{
+    
+    grid-column: 1 / -1;   
+    grid-row: auto; 
+    width: 100%;
+    height: 100%;
+
+  }
+
+  .Gif-info .About{
+    margin-top: 12em;
+    padding: 0;
+  }
+
+  .imagen {
+    grid-row: 1;
+    grid-column: 2;
+    margin-left: 0;
+    margin-top: 8em;
+}
+
+  .desquad {    
+    grid-row: 2;
+    margin-left: 0em;
+    grid-column: 1 / -1;
+    padding: 20px;
+    margin: 0;
+}
+
+  .footer-text {
+    display: flex;
+    grid-column: 2 / 10;
+    grid-row: 1;
+  }
+
+  section.Contacto {
+    
+    display: grid;
+        
+    grid-template-columns: repeat(1, 1fr);
+        
+    grid-template-rows: auto;
+      }
+      
+      form {
+       
+    justify-content: center;
+       
+    flex-direction: column;
+       
+    margin-left: 5em;
+      }
+  
+  
+
+  .footer-icons {
+    grid-column: 1 / -1;
+    grid-row: 2;
+    align-content: center;
+    text-align: center;
+    margin-top: 23px;
+  }
+
+  .icono {
+    
+    font-size: 3em;
+    letter-spacing: 30px;
+  }
+
+}
+
+@media only screen and (min-width: 601px) and (max-width: 991px){
+
+
+  .navbar{
+    position: block;
+    background-color: #18191b;
+    grid-template-columns: repeat(20, 1fr);
+    
+  }
+
+  .navbar .shop{
+    display: none;
+
+  }
+
+  .navbar .menubar{
+    display: none;
+    
+  }
+ 
+  .navbar .menu {
+    position: absolute;
+    width: 54vh;
+    height: 5em;
+    display: flex;
+    align-items: center;      
+    transition: all 1s ease;    
+    gap: 20px;
+}
+  
+  .navbar .logo {
+    grid-column: 5 / 8;
+    width: 150px;
+  }
+
+  .scrolled {
+  
+    background-color: #18191b;
+    height: 12vh; 
+    
+  }
+   
+  section.tutoriales {
+    display: grid;
+    grid-gap: 10px;
+    grid-template: repeat(3, 1fr) / repeat(1 , 50%);
+    align-items: center;
+    padding: 20px;
+    background-color: #18191b;    
+    align-content: center;
+    align-self: center;
+    justify-content: center;
+}
+
+  .tutoriales .tutorial {
+    grid-column: 1 / -1;   
+    grid-row: auto; 
+    width: 100%;
+    height: 100%;
+  }
+  
+  
+  .hero{
+    grid-template-columns: repeat(6, 1fr);
+}
+
+  
+
+  .hero .hero-text {
+    grid-column: 2 / 6;
+    grid-row: 4 / 10;
+    display: flex;
+    flex-wrap: wrap;
+}
+  
+    .hero .swipe {
+    display: block;
+    color: #FFC40B;
+    grid-row: 9 / 10;
+    grid-column: 3 / 5;
+    align-items: center;
+    margin-left: 2.5em;
+    margin-top: 2em;
+    font-size: 2em;
+    transition: all 0.5s ease;
+
+  }
+
+  .hero .swipe:hover {
+    color: #FFC40B;
+    text-shadow: 0 0 30px #FFC40B;
+  }
+
+  .grupo2{
+    width: 100%;
+    height: auto;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1em;
+}
+  
+  .Gif-info .gif{
+    
+    grid-column: 1 / -1;   
+    grid-row: auto; 
+    width: 100%;
+    height: 100%;
+
+  }
+
+  .Gif-info .About{
+    margin-top: 12em;
+    padding: 0;
+  }
+
+  .imagen {
+    grid-row: 1;
+    grid-column: 2;
+    margin-left: 0;
+    margin-top: 8em;
+}
+
+  .desquad {    
+    grid-row: 2;
+    margin-left: 0em;
+    grid-column: 1 / -1;
+    padding: 20px;
+    margin: 0;
+}
+
+  .footer-text {
+    display: flex;
+    grid-column: 2 / 10;
+    grid-row: 1;
+  }
+
+  .footer-icons {
+    grid-column: 4 / 9;
+    grid-row: 2;
+    align-content: center;
+    text-align: center;
+    margin-top: 23px;
+}
+
+  .icono {
+    
+    font-size: 3em;
+    letter-spacing: 30px;
+  }
+  
+
+}
