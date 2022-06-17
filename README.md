@@ -52,9 +52,18 @@ Proyecto final del fullstack python de codo a codo.
    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://www.postgresql.org" target="_blank" rel="noreferrer">
     
    # Capturas del sitio #
+  
+  # Sitio Escritorio #
         
   ![main](https://user-images.githubusercontent.com/28113791/174157661-f82d12ad-2838-4c1d-bd08-d6069149a983.png)
   ![2nd](https://user-images.githubusercontent.com/28113791/174157932-97d2addd-7971-4db5-86e7-daf2fadd264d.png)
   ![3rd](https://user-images.githubusercontent.com/28113791/174157943-76a462ea-bf4f-4107-914d-a06ae199d027.png)
   ![footer](https://user-images.githubusercontent.com/28113791/174157926-60430758-c25f-40f9-8574-b9bfa68ed144.png)
+  
+  # Sitio Smartphones # 
+  ![1-removebg-preview](https://user-images.githubusercontent.com/28113791/174213133-108c6bcb-0a93-4c3b-8b75-eeb2358c3f69.png)![2-removebg-preview](https://user-images.githubusercontent.com/28113791/174213154-e3f19333-2822-4eda-b6e8-9171e72caad9.png)![3-removebg-preview](https://user-images.githubusercontent.com/28113791/174213173-1939b34e-f01c-4432-ba04-3c195a980b89.png)
+
+
+
+  
 
